@@ -1,0 +1,130 @@
+
+body{
+  margin: 0px;
+}
+.search{
+  height: 25vh;
+  margin-left: 25vw;
+  background-color: pink;
+  border-left: 2px solid black;
+
+}
+header{
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  height: 25vh;
+  width: 25vw;
+  background-color: pink;
+}
+#cerca{
+  color: black;
+}
+#titolo{
+  line-height: 25vh;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  color: black;
+  margin-left: 60px;
+}
+#titolo:hover{
+  color: white;
+}
+.container{
+  display: inline-block;
+  height: 100vh;
+  width: 25vw;
+  background-color: gray;
+  position: relative;
+  border-top: 1px solid black;
+}
+.box{
+ height:25vh;
+ position: relative;
+}
+.box:hover{
+  border: 4px solid pink;
+}
+.box:hover .link{
+  color: pink;
+}
+.link{
+  color: white;
+  text-decoration: none;
+
+}
+.primo, .secondo, .terzo, .quarto{
+  background-size: cover;
+  background-position: center;
+}
+.primo{
+  background-image: url('https://www.poli-listaperta.it/wp-content/uploads/2019/09/Panorama-di-Napoli-Gettyimages.jpg');
+}
+.secondo{
+  background-image: url('https://www.acprail.com/wp-content/uploads/2018/12/barcelona-1.jpg');
+}
+.terzo{
+  background-image: url('https://www.costacrociere.it/content/dam/costa/inventory-assets/ports/IJM/ijm-amsterdam-ijmuiden-port-1.jpg.image.750.563.low.jpg');
+}
+.quarto{
+  background-image: url('https://i.redd.it/0k6264224a821.jpg');
+}
+.Città{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: white;
+}
+.overlays{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.cDestra{
+  position: absolute;
+  top: 25vh;
+  left: 25vw;
+  height: 100vh;
+  width: 74.5%;
+  background-image: url('https://www.visittrentino.info/website/var/tmp/image-thumbnails/2810000/2819993/thumb__ogimages/val-di-fassa---val-san-nicol~---baita_40834.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-left: 2px solid black;
+  border-top: 1px solid black;
+}
+.iscrizione{
+max-width: 400px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 20px;
+color: white;
+}
+.img{
+  text-align: center;
+}
+#logo{
+  font-size: 200px;
+}
+.center{
+  text-align: center;
+}
+.nomepass{
+  display: inline-block;
+}
+.inserisci{
+  display: inline-block;
+}
+.overlays2{
+  width: 70%;
+  height: 70%;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  border: 2px solid pink;
+}
